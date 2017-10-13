@@ -1,0 +1,222 @@
+/*==========  Desktop First Method  ==========*/
+
+@media only screen and (max-width : 1600px) {
+    header h1{
+        margin-right: 10%;
+    }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    header .text_top{
+        margin-right: 10%;
+    }
+    header h1{
+        margin-right: 10%;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    header{
+        min-height: 50%;
+    }
+    header h1{
+        max-height: 50%;
+        text-align: right;
+        margin-right: 4%;
+    }
+    header .text_top{
+        font-size: 30px;
+        margin-bottom: 30%;
+    }
+    .question1{
+        min-height: 150px;
+    }
+    .playmarket{
+        bottom: 5px;
+    }
+    .find-aud h2{
+        font-size: 35px; 
+    }
+    .three_steps img{
+        max-width: 325px;
+    }
+    .chairs_bg{
+        padding-bottom: 0;
+    }
+    .first_developer,
+    .second_developer,
+    .third_developer,
+    .fourth_developer{
+    }
+    .developers img{
+        max-height: 200px;
+        margin-left: 0%;
+    }
+    .developers h2{
+        font-size: 50px;
+    }
+    .developers h3{
+        font-size: 40px;
+    }
+    .developers p{
+        font-size: 30px;
+    }
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    header {
+        background-size: cover;
+        background-position: -630px;
+        min-height: 200px;
+    }
+    .question1{
+     min-height: 210px;
+    }
+     .find-aud h2{
+     font-size: 22px; 
+     line-height: 30px;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .row .sm{
+    padding-right: 0px;
+    padding-left: 0px;
+    height: 200px;
+    margin-bottom: 50px;
+    }
+    .three_steps p{
+        margin-left: 0;
+        text-align: center;
+    }
+    .three_steps img{
+        max-width: 450px;
+        max-height: 450px;
+        margin-left: -40%;
+    }
+    .info img{
+        max-width: 750px;
+        max-height: 750px;
+        margin-left: -90%;
+    }
+    .info h2{
+        font-size: 50px;
+    }
+    .rules p{
+        font-size: 50px;
+    }
+    .developers{
+        text-align: center;
+    }
+     .developers h2{
+        text-align: center;
+    }
+    .developers h3{
+        text-align: center;
+    }
+    .developers p{
+        text-align: center;
+    }
+    .google_play img{
+        margin-top: -30px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    header {
+        background-size: cover;
+        background-position: -630px;
+        min-height: 200px;
+    }
+    .question1{
+     min-height: 210px;
+    }
+     .find-aud h2{
+     font-size: 25px; 
+     line-height: 30px;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .row .sm{
+    padding-right: 10px;
+    margin-top: 20px;
+    height: 200px;
+    margin-bottom: 50px;
+    font-size: 100px;
+    }
+    .three_steps p{
+        margin-left: 0;
+        text-align: center;
+    }
+    .info img{
+        margin-left: -100px;
+        max-width: 450px;
+    }
+    .developers{
+        text-align: center;
+    }
+     .developers h2{
+        text-align: center;
+    }
+    .developers h3{
+        text-align: center;
+    }
+    .developers p{
+        text-align: center;
+    }
+    .google_play img{
+        height: 40px;
+    }
+    #back-top{
+     display: none !important;
+    }
+    .three_steps img{
+        max-width: 450px;
+        margin-left: -100px;
+    }
+    header .text_top{
+        padding: 50px 10px 50px 60px;
+        margin-right: 0;
+    }
+    .find-aud h2{
+        margin-top: 200px
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

@@ -1,0 +1,368 @@
+*::-webkit-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*::-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-ms-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {}
+
+body input:required:valid,
+body textarea:required:valid {}
+
+body {
+    font-family: "RobotoRegular", sans-serif;
+    font-size: 16px;
+    min-width: 320px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+.parallax_text {}
+
+.parallax_text_up {}
+
+header {
+    background-image: url(../img/header_bg.jpg);
+    min-height: 750px;
+    position: relative;
+    font-family: "BebasBold";
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 130px;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    text-align: right;
+    margin-right: 18%;
+    margin-top: 2%;
+}
+
+.mail-way {
+    min-height: 50px;
+    -webkit-box-shadow: rgba(255, 255, 255, .2) 0 0 0 1px;
+    box-shadow: rgba(255, 255, 255, .2) 0 0 0 1px;
+    width: 90%;
+}
+
+.mail-way .bot_line {
+    position: relative;
+    display: inline-block;
+    outline: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+    font-size: 1.35em;
+    font-family: "BebasRegular";
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    overflow: hidden;
+    text-align: center;
+    text-shadow: none;
+}
+
+.mail-way .bot_line:before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    background: #06496d;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.mail-way .bot_line:hover:before,
+.mail-way .bot_line:focus:before,
+.mail-way .bot_line:active:before {
+    left: 0;
+    right: 0;
+}
+
+.mail-way .bot_line:hover,
+.mail-way .bot_line:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+#fbffs {
+    padding-right: 2px;
+    padding-top: 2px;
+    font-size: 30px;
+}
+
+legend {
+    font-family: "BebasBold";
+    font-size: 25px;
+}
+
+.playmarket {
+    vertical-align: middle;
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    text-align: right;
+}
+
+.question1 {
+    background-color: rgba(56, 142, 241, 1);
+    background-repeat: repeat;
+    height: 85px;
+}
+
+.question1 h2 {
+    font-family: "BebasBold";
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    margin: 0;
+    padding-top: 10px;
+}
+
+.finder {
+    font-family: "BebasRegular";
+    background-image: url(../img/finder_bg_gra3.jpg);
+    min-height: 567px;
+    background-repeat: repeat-x;
+    background-position: center;
+    position: relative;
+    font-family: "BebasBold";
+    overflow: hidden;
+    background-size: cover;
+}
+
+.text_top {
+    padding-left: 60%;
+    padding-top: 20px;
+    display: inline-block;
+    font-family: "BebasRegular";
+    font-size: 35px;
+    text-align: right;
+    color: #fff;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.find-aud h2 {
+    text-align: left;
+    padding-left: 5%;
+    margin-top: 30%;
+    font-family: "BebasRegular";
+    color: #fff;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    background-color: rgba(56, 142, 241, 1);
+    font-size: 40px;
+}
+
+.rules {
+    background-color: rgba(56, 142, 241, 1);
+}
+
+.chairs_bg {
+    background-color: rgba(56, 142, 241, 1);
+    min-height: 600px;
+    background-repeat: repeat-x;
+    background-position: center;
+    position: relative;
+    font-family: "BebasRegular";
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+
+.rules p {
+    text-align: center;
+    font-family: "BebasBold";
+    color: #fff;
+    margin: 0;
+    font-size: 60px;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-brand {
+    margin-top: -14px;
+}
+
+.three_steps p {
+    font-family: "BebasRegular";
+    color: #fff;
+    font-size: 45px;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 90px;
+}
+
+.three_steps img {
+    max-width: 450px;
+    padding-bottom: 50px;
+}
+
+.google_play {
+    margin-right: 15px;
+}
+
+.developers {
+    background-color: rgba(56, 142, 241, 1);
+    background-image: linear-gradient(to bottom, rgba(56, 142, 241, 1), rgb(77,77,77) );
+    min-height: 600px;
+    background-repeat: repeat-x;
+    background-position: center;
+    position: relative;
+    font-family: "BebasRegular";
+    overflow: hidden;
+}
+
+.developers h2 {
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: "BebasBold";
+    color: #fff;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-size: 60px;
+}
+
+.developers h3 {
+    text-align: left;
+    padding-left: 5%;
+    font-family: "BebasRegular";
+    color: #fff;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-size: 50px;
+}
+
+.developers p {
+    text-align: left;
+    padding-left: 5%;
+    font-family: "BebasRegular";
+    color: #fff;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+}
+
+.developers img {
+    max-height: 250px;
+    margin-left: 10%;
+}
+
+.info img {
+    min-height: 350px;
+    max-height: 600px;
+}
+
+.info h2 {
+    text-align: center;
+    font-family: "BebasBold";
+    color: #fff;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-size: 60px;
+}
+
+.info p {
+    text-align: left;
+    padding-top: 10%;
+    font-family: "BebasRegular";
+    color: #fff;
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+}
+
+.info {
+    background-color: rgba(56, 142, 241, 1);
+    min-height: 600px;
+    background-repeat: repeat-x;
+    background-position: center;
+    position: relative;
+    font-family: "BebasRegular";
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+footer {
+    background-color: #333333;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer span {
+    font-family: "BebasBold";
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+
+/*DO NOT TRY THIS AT HOME*/
+
+.developers img {
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    width: 180px;
+    height: 180px;
+    border: solid 1px #555;
+    background-color: #eed;
+    /*box-shadow: 0 0 rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 rgba(0, 0, 0, 0.6);
+    -o-box-shadow: 0 0 rgba(0, 0, 0, 0.6);*/
+    border-radius: 100px;
+}
+
+.developers img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    width: 200px;
+    height: 200px;
+    border: solid 1px #555;
+    background-color: #eed;
+    /*box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);
+    -o-box-shadow: 10px -10px rgba(0, 0, 0, 0.6);*/
+    border-radius: 100px;
+}
